@@ -1,25 +1,9 @@
-import _ from 'lodash';
-const d3 = await import("d3");
 import d3hyt from './d3-hypertree.js';
 import './d3-hypertree-light.css';
 import satellites from './assets/satellites.json';
 
-
 if (process.env.NODE_ENV !== 'production') {
     console.log('Looks like we are in development mode!'); 
-}
-
-function component() {
-    const element = document.createElement('div');
-
-    element.innerHTML = _.join(['Hello', 'webpack'], ' ');
-   
-    return element;
-}
-
-function d3f() {
-    const square = d3.selectAll("div");
-    square.style("color", "orange");
 }
 
 function createTree() {
@@ -41,7 +25,4 @@ function createTree() {
     );
 }
 
-document.body.appendChild(component());
-console.log(satellites);
-d3f();
 createTree();
