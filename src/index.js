@@ -1,5 +1,5 @@
 import d3hyt from './d3-hypertree.js';
-import './d3-hypertree-light.css';
+import './d3-hypertree-dark.css';
 import satellites from './assets/satellites.json';
 
 if (process.env.NODE_ENV !== 'production') {
