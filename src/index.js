@@ -14,9 +14,6 @@ function createTree() {
             langInitBFS: (ht, n)=> {                
                 n.precalc.label = n.data.name                        
             },
-            //dataloader: hyt.loaders.fromFile('data/LDA128-ward.d3.json'),
-            //dataloader: ok=> ok(d3.hierarchy(...)),
-            //dataloader: ok=> ok(d3.stratify()...(table)),        
             dataloader: ok => ok(satellites),
             interaction: {
                 λbounds: [ .4, .8 ],

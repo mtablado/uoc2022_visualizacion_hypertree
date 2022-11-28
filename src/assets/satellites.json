@@ -14,21 +14,21 @@
                     ]
                 },
                 { 
-                    "name": "Civil",
+                    "name": "1 Civil",
                     "children": [
-                        { "name": "RU" }
+                        { "name": "1 RU" }
                     ]
                 },
                 { 
-                    "name": "Military",
+                    "name": "5 Military",
                     "children": [
-                        { "name": "CH" }
+                        { "name": "5 CH" }
                     ]
                 },
                 { 
-                    "name": "Commercial",
+                    "name": "12 Commercial",
                     "children": [
-                        { "name": "The Rest" }
+                        { "name": "12 The Rest" }
                     ]
                 }
             ]
